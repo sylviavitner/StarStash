@@ -10,21 +10,21 @@ pygame.display.set_caption("Star Stash")
 
 font = pygame.font.SysFont("courier", 16, bold = True)
 
-bg = pygame.transform.scale(pygame.image.load("/Users/sylviavitner/Desktop/Hackathon/skybg.png"), (width, height))
+bg = pygame.transform.scale(pygame.image.load("skybg.png"), (width, height))
 
 # Load cat sprite
-player = pygame.image.load('/Users/sylviavitner/Desktop/Hackathon/cat.png').convert_alpha() 
+player = pygame.image.load("cat.png").convert_alpha() 
 player_rect = player.get_rect(topleft=(260, 328))
 player_vel = 5
 
 # Get stars
-star = pygame.image.load("/Users/sylviavitner/Desktop/Hackathon/star.png").convert_alpha()
+star = pygame.image.load("star.png").convert_alpha()
 star = pygame.transform.scale(star, (48, 48))
 star_rect = star.get_rect(topleft= (0, 0))
 object_vel = 3
 
 # Get lives
-lives = pygame.image.load("/Users/sylviavitner/Desktop/Hackathon/lives.png").convert_alpha()
+lives = pygame.image.load("lives.png").convert_alpha()
 lives = pygame.transform.scale(lives, (80, 80))
 
 # Star starting values
