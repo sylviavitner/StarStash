@@ -19,7 +19,7 @@
 
 *   Python
 *   Pygame
-*   
+
 ---
 
 ### 🛠️ Installation
