@@ -19,11 +19,7 @@
 
 *   Python
 *   Pygame
----
-
-### 🧑‍💻 Contributors
-
-*   Sylvia Vitner
+*   
 ---
 
 ### 🛠️ Installation
@@ -33,7 +29,7 @@
 3.  Clone this repository: `git clone https://github.com/sylviavitner/StarStash.git`
 ---
 
-### 🎮 How to Run the Game
+### 🎮 How to Run 
 
 1.  Follow the installation instructions above.
 2.  Open a terminal or command prompt.
